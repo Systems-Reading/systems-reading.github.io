@@ -54,5 +54,10 @@ name = 'RSS'
 title = 'RSS'
 url = 'index.xml'
 
+[params.editPost]
+url = "https://github.com/Systems-Reading/systems-reading.github.io/edit/main/content"
+text = "Edit"
+appendFilePath = true
+
 [outputs]
 home = ['HTML', 'RSS', 'JSON']
