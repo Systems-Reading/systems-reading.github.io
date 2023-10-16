@@ -23,16 +23,16 @@ identifier = 'search'
 name = 'Search'
 url = '/search/'
 
+[[menu.main]]
+identifier = 'archive'
+name = 'Archive'
+url = '/archive/'
+
 [params.homeInfoParams]
 title = 'Stanford Computer Systems Reading Group'
 content = '''
 Fridays at 11 AM, Gates 392
 '''
-
-[[params.socialIcons]]
-name = 'GitHub'
-title = 'GitHub'
-url = 'https://github.com/Systems-Reading'
 
 [[params.socialIcons]]
 name = 'Email'
@@ -43,6 +43,11 @@ url = 'https://mailman.stanford.edu/mailman/listinfo/systems_reading'
 name = 'Slack'
 title = 'Slack'
 url = 'https://csphdcommunity.slack.com/app_redirect?channel=systems-reading-group'
+
+[[params.socialIcons]]
+name = 'GitHub'
+title = 'GitHub'
+url = 'https://github.com/Systems-Reading'
 
 [[params.socialIcons]]
 name = 'RSS'
