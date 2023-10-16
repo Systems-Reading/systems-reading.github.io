@@ -1,0 +1,45 @@
+baseURL = 'https://systems-reading.github.io'
+languageCode = 'en-us'
+title = 'Systems Reading Group'
+theme = 'PaperMod'
+
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+url = '/about/'
+
+[[menu.main]]
+identifier = 'categories'
+name = 'Conferences'
+url = '/categories/'
+
+[[menu.main]]
+identifier = 'tags'
+name = 'Topics'
+url = '/tags/'
+
+[params.homeInfoParams]
+title = 'Stanford Computer Systems Reading Group'
+content = '''
+Fridays at 11 AM, Gates 392
+'''
+
+[[params.socialIcons]]
+name = 'GitHub'
+title = 'GitHub'
+url = 'https://github.com/Systems-Reading'
+
+[[params.socialIcons]]
+name = 'Email'
+title = 'Email'
+url = 'https://mailman.stanford.edu/mailman/listinfo/systems_reading'
+
+[[params.socialIcons]]
+name = 'Slack'
+title = 'Slack'
+url = 'https://csphdcommunity.slack.com/app_redirect?channel=systems-reading-group'
+
+[[params.socialIcons]]
+name = 'RSS'
+title = 'RSS'
+url = 'index.xml'
