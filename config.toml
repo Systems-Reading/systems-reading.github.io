@@ -18,6 +18,11 @@ identifier = 'tags'
 name = 'Topics'
 url = '/tags/'
 
+[[menu.main]]
+identifier = 'search'
+name = 'Search'
+url = '/search/'
+
 [params.homeInfoParams]
 title = 'Stanford Computer Systems Reading Group'
 content = '''
@@ -43,3 +48,6 @@ url = 'https://csphdcommunity.slack.com/app_redirect?channel=systems-reading-gro
 name = 'RSS'
 title = 'RSS'
 url = 'index.xml'
+
+[outputs]
+home = ['HTML', 'RSS', 'JSON']

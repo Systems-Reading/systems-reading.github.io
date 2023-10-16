@@ -1,4 +1,6 @@
-# About
+---
+title: "About"
+---
 
 We read and discuss all sorts of systems papers, including computer networking,
 operating systems, programming languages, hardware, and systems for machine
